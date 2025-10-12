@@ -1,0 +1,51 @@
+import { Button } from '@/components/ui/button';
+import Image from 'next/image';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
+
+export default function Hero() {
+  const heroImage = PlaceHolderImages.find((p) => p.id === 'hero-pave');
+
+  return (
+    <section className="w-full py-12 md:py-24 lg:py-32">
+      <div className="container px-4 md:px-6">
+        <div className="grid gap-6 lg:grid-cols-2 lg:gap-16 items-center">
+          <div className="flex flex-col justify-center space-y-6 text-center lg:text-left">
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl/none font-headline text-foreground">
+              Transforme sua cozinha em uma fonte de renda:{' '}
+              <span className="text-primary">mais de 100 receitas de Pavê</span> que vendem sozinhas!
+            </h1>
+            <p className="max-w-[600px] text-muted-foreground md:text-xl mx-auto lg:mx-0">
+              Com apenas um liquidificador e ingredientes simples, você vai preparar pavês cremosos e irresistíveis, sem
+              precisar de experiência na cozinha. Ganhe dinheiro sem sair de casa!
+            </p>
+            <div className="w-full max-w-md mx-auto lg:mx-0 space-y-2">
+              <a href="#offer" className="block">
+                <Button
+                  size="lg"
+                  className="w-full bg-green-500 hover:bg-green-600 text-white font-bold text-lg py-8 shadow-lg transform hover:scale-105 transition-transform duration-300"
+                >
+                  QUERO COMEÇAR A VENDER AGORA POR R$19,90
+                </Button>
+              </a>
+              <p className="text-xs text-center text-muted-foreground">
+                Clique e receba o eBook completo direto no seu WhatsApp!
+              </p>
+            </div>
+          </div>
+          <div className="relative aspect-square md:aspect-video mx-auto overflow-hidden rounded-xl shadow-2xl">
+            {heroImage && (
+              <Image
+                src={heroImage.imageUrl}
+                alt={heroImage.description}
+                fill
+                className="object-cover"
+                data-ai-hint={heroImage.imageHint}
+                priority
+              />
+            )}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
