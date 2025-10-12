@@ -31,9 +31,6 @@ export default function Offer() {
                 QUERO APROVEITAR A OFERTA
               </Button>
             </a>
-            <p className="text-xs text-muted-foreground">
-              👉 Clique no botão e receba imediatamente o eBook completo direto no seu WhatsApp!
-            </p>
           </div>
         </div>
       </div>
