@@ -58,7 +58,7 @@ export default function Testimonials() {
               Elas confiaram e estão lucrando
             </h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Veja o que algumas de nossas alunas estão dizendo sobre o e-book de Pavês Lucrativos.
+              Veja o que algumas de nossas alunas estão dizendo sobre o nosso treinamento de Pavês Lucrativos.
             </p>
           </div>
         </div>
