@@ -6,15 +6,15 @@ export default function Hero() {
   const heroImage = PlaceHolderImages.find((p) => p.id === 'hero-pave');
 
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32">
+    <section className="w-full py-12 md:py-24 lg:py-32 bg-primary text-primary-foreground">
       <div className="container px-4 md:px-6">
         <div className="grid gap-8 lg:grid-cols-2 lg:gap-16 items-center">
           <div className="flex flex-col justify-center space-y-6 text-center lg:text-left">
-            <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl/none font-headline text-foreground">
+            <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl/none font-headline">
               Transforme sua cozinha em uma fonte de renda:{' '}
-              <span className="text-primary">mais de 100 receitas de Pavê</span> que vendem sozinhas!
+              <span className="text-white drop-shadow-lg">mais de 100 receitas de Pavê</span> que vendem sozinhas!
             </h1>
-            <p className="max-w-[600px] text-muted-foreground md:text-xl mx-auto lg:mx-0">
+            <p className="max-w-[600px] md:text-xl mx-auto lg:mx-0 text-primary-foreground/90">
               Com apenas um liquidificador e ingredientes simples, você vai preparar pavês cremosos e irresistíveis, sem
               precisar de experiência na cozinha. Ganhe dinheiro sem sair de casa!
             </p>
@@ -27,7 +27,7 @@ export default function Hero() {
                   QUERO AS RECEITAS!
                 </Button>
               </a>
-              <p className="text-xs text-center text-muted-foreground">
+              <p className="text-xs text-center text-primary-foreground/80">
                 Clique e receba o eBook completo direto no seu WhatsApp!
               </p>
             </div>
