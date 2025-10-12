@@ -24,7 +24,7 @@ export default function Hero() {
                   size="lg"
                   className="w-full bg-green-500 hover:bg-green-600 text-white font-bold text-lg py-6 shadow-lg transform hover:scale-105 transition-transform duration-300 whitespace-normal h-auto"
                 >
-                  QUERO COMEÇAR A VENDER AGORA POR R$19,90
+                  QUERO AS RECEITAS!
                 </Button>
               </a>
               <p className="text-xs text-center text-muted-foreground">
