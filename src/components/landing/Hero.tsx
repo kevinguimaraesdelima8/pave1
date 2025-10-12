@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="container px-4 md:px-6">
         <div className="grid gap-6 lg:grid-cols-2 lg:gap-16 items-center">
           <div className="flex flex-col justify-center space-y-6 text-center lg:text-left">
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl/none font-headline text-foreground">
+            <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none font-headline text-foreground">
               Transforme sua cozinha em uma fonte de renda:{' '}
               <span className="text-primary">mais de 100 receitas de Pavê</span> que vendem sozinhas!
             </h1>
@@ -22,7 +22,7 @@ export default function Hero() {
               <a href="#offer" className="block">
                 <Button
                   size="lg"
-                  className="w-full bg-green-500 hover:bg-green-600 text-white font-bold text-lg py-8 shadow-lg transform hover:scale-105 transition-transform duration-300"
+                  className="w-full bg-green-500 hover:bg-green-600 text-white font-bold text-base sm:text-lg py-6 sm:py-8 shadow-lg transform hover:scale-105 transition-transform duration-300 whitespace-normal h-auto"
                 >
                   QUERO COMEÇAR A VENDER AGORA POR R$19,90
                 </Button>
@@ -32,7 +32,7 @@ export default function Hero() {
               </p>
             </div>
           </div>
-          <div className="relative aspect-square md:aspect-video mx-auto overflow-hidden rounded-xl shadow-2xl">
+          <div className="relative aspect-video mx-auto overflow-hidden rounded-xl shadow-2xl w-full">
             {heroImage && (
               <Image
                 src={heroImage.imageUrl}
