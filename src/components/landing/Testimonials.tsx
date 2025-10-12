@@ -54,7 +54,7 @@ export default function Testimonials() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl font-headline">
               Elas confiaram e estão lucrando
             </h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
@@ -67,13 +67,13 @@ export default function Testimonials() {
             align: 'start',
             loop: true,
           }}
-          className="mx-auto mt-12 w-full max-w-xs sm:max-w-xl md:max-w-2xl lg:max-w-4xl"
+          className="mx-auto mt-12 w-full max-w-xs sm:max-w-2xl md:max-w-2xl lg:max-w-4xl"
         >
           <CarouselContent>
             {testimonials.map((testimonial) => {
               const avatarImage = PlaceHolderImages.find((p) => p.id === testimonial.id.replace('testimonial-', 'avatar-'));
               return (
-                <CarouselItem key={testimonial.id} className="md:basis-1/2 lg:basis-1/3">
+                <CarouselItem key={testimonial.id} className="sm:basis-1/2 lg:basis-1/3">
                   <div className="p-1 h-full">
                     <Card className="flex h-full flex-col shadow-md transition-shadow duration-300 hover:shadow-xl">
                       <CardContent className="flex-1 p-6">
