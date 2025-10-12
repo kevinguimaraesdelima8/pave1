@@ -23,6 +23,18 @@
       "description": "Candid photo of a woman in her 50s.",
       "imageUrl": "https://picsum.photos/seed/avatar3/100/100",
       "imageHint": "happy woman"
+    },
+    {
+      "id": "avatar-4",
+      "description": "Portrait of a woman.",
+      "imageUrl": "https://picsum.photos/seed/avatar4/100/100",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "avatar-5",
+      "description": "Headshot of a smiling woman.",
+      "imageUrl": "https://picsum.photos/seed/avatar5/100/100",
+      "imageHint": "woman smiling"
     }
   ]
 }
