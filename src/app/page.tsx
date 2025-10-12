@@ -7,6 +7,7 @@ import Hero from '@/components/landing/Hero';
 import Offer from '@/components/landing/Offer';
 import SocialProof from '@/components/landing/SocialProof';
 import Testimonials from '@/components/landing/Testimonials';
+import ProductCarousel from '@/components/landing/ProductCarousel';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <main className="flex-1">
         <Hero />
         <Benefits />
+        <ProductCarousel />
         <Testimonials />
         <SocialProof />
         <Offer />
