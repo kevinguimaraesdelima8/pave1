@@ -7,6 +7,12 @@
       "imageHint": "pave dessert"
     },
     {
+      "id": "ebook-mockup",
+      "description": "Mockup of the Pavê Lucrativo e-book cover.",
+      "imageUrl": "https://i.imgur.com/4afanNz.jpeg",
+      "imageHint": "ebook cover"
+    },
+    {
       "id": "avatar-1",
       "description": "Portrait of a smiling middle-aged woman.",
       "imageUrl": "https://i.imgur.com/b4QwCX9.jpeg",
