@@ -1,4 +1,5 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
+import { HelpCircle } from 'lucide-react';
 
 const faqs = [
   {
@@ -33,7 +34,7 @@ const faqs = [
 
 export default function FAQ() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 bg-secondary">
+    <section className="w-full py-12 md:py-24 lg:py-32 bg-background">
       <div className="container px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">Perguntas Frequentes</h2>
@@ -42,12 +43,15 @@ export default function FAQ() {
         <div className="mx-auto max-w-3xl mt-8">
           <Accordion type="single" collapsible className="w-full space-y-4">
             {faqs.map((faq, index) => (
-              <AccordionItem key={index} value={`item-${index}`} className="border-b-0 rounded-lg bg-background shadow-sm">
+              <AccordionItem key={index} value={`item-${index}`} className="border-b-0 rounded-lg bg-primary/5 border border-primary/20 shadow-sm transition-all hover:border-primary">
                 <AccordionTrigger className="text-lg font-semibold text-left px-6 py-4 hover:no-underline">
-                  {faq.question}
+                  <div className='flex items-center gap-3'>
+                    <HelpCircle className="h-5 w-5 text-primary" />
+                    <span>{faq.question}</span>
+                  </div>
                 </AccordionTrigger>
                 <AccordionContent className="text-base text-muted-foreground px-6">
-                  <p className="pb-4">{faq.answer}</p>
+                  <p className="pb-4 pl-8">{faq.answer}</p>
                 </AccordionContent>
               </AccordionItem>
             ))}
