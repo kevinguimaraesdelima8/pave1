@@ -1,4 +1,3 @@
-import { Button } from '@/components/ui/button';
 import { Zap, Users, Star } from 'lucide-react';
 
 export default function Hero() {
@@ -15,7 +14,7 @@ export default function Hero() {
             <br />
             Uma{' '}
             <span className="relative inline-block">
-              <span className="relative z-10 text-white rounded-md">Fonte de Renda:</span>
+              <span className="relative z-10 text-yellow-400">Fonte de Renda:</span>
               <svg
                 className="absolute left-0 -bottom-2 w-full h-2 text-yellow-400"
                 xmlns="http://www.w3.org/2000/svg"
