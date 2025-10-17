@@ -1,34 +1,32 @@
 import { Button } from '@/components/ui/button';
-import { Flame, AlertTriangle } from 'lucide-react';
+import { Flame, AlertTriangle, ChefHat } from 'lucide-react';
 
 export default function Offer() {
   return (
-    <section id="offer" className="w-full py-12 md:py-24 lg:py-32 bg-secondary">
+    <section id="offer" className="w-full py-12 md:py-24 lg:py-32 bg-primary text-primary-foreground">
       <div className="container px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center space-y-8">
-          <div className="inline-block rounded-lg bg-accent text-accent-foreground px-3 py-1 text-sm font-semibold">
-            OFERTA ESPECIAL
-          </div>
-          <div className="flex flex-col items-center space-y-4">
-            <p className="text-2xl md:text-5xl font-bold text-muted-foreground line-through">De R$97</p>
-            <p className="text-lg text-foreground">por apenas</p>
-            <h2 className="text-6xl md:text-7xl lg:text-8xl font-extrabold text-primary font-headline">R$19,90</h2>
-            <p className="text-lg text-foreground">ou 2x de R$10,34</p>
-          </div>
-          <div className="flex flex-col items-center justify-center space-y-2 text-center text-accent-foreground bg-accent p-4 rounded-lg shadow-md">
-            <div className="flex items-center gap-2">
-              <AlertTriangle className="h-5 w-5 flex-shrink-0" />
-              <p className="font-semibold text-sm sm:text-base">Oferta por tempo limitado – garanta agora antes que saia do ar!</p>
+          <h2 className="text-4xl md:text-5xl font-bold font-headline">Oferta Especial Por Tempo Limitado!</h2>
+          <div className="bg-black/20 rounded-lg p-6 md:p-8 space-y-4">
+            <p className="text-lg">De <span className="line-through">R$97,00</span> por apenas:</p>
+            <div className="text-6xl md:text-7xl lg:text-8xl font-extrabold text-yellow-400">R$19,90</div>
+            <div className="flex items-center justify-center gap-2 font-semibold">
+              <Flame className="h-5 w-5 text-yellow-400" />
+              <span>Mais de 80% de desconto - Apenas HOJE!</span>
             </div>
+          </div>
+          <div className="flex items-center justify-center gap-2 text-center bg-yellow-500 text-yellow-900 p-3 rounded-lg shadow-md">
+            <AlertTriangle className="h-5 w-5 flex-shrink-0" />
+            <p className="font-semibold text-sm sm:text-base">ATENÇÃO: Esta oferta pode sair do ar a qualquer momento!</p>
           </div>
           <div className="w-full max-w-md mx-auto space-y-2">
             <a href="#_" className="block">
               <Button
                 size="lg"
-                className="w-full bg-green-500 hover:bg-green-600 text-white font-bold text-lg py-6 shadow-lg transform hover:scale-105 transition-transform duration-300 whitespace-normal h-auto"
+                className="w-full bg-green-500 hover:bg-green-600 text-white font-bold text-xl py-6 shadow-lg transform hover:scale-105 transition-transform duration-300 whitespace-normal h-auto"
               >
-                <Flame className="mr-2 h-6 w-6" />
-                QUERO APROVEITAR A OFERTA
+                <ChefHat className="mr-2 h-6 w-6" />
+                QUERO AS RECEITAS AGORA
               </Button>
             </a>
           </div>
