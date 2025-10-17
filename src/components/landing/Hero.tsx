@@ -11,8 +11,8 @@ export default function Hero() {
         <div className="grid gap-8 lg:grid-cols-2 lg:gap-16 items-center">
           <div className="flex flex-col justify-center space-y-6 text-center lg:text-left">
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl/none font-headline">
-              Transforme sua cozinha em uma fonte de renda:{' '}
-              <span className="text-white drop-shadow-lg">mais de 100 receitas de Pavê</span> que vendem sozinhas!
+              Transforme Sua Cozinha em Uma Fonte de Renda:{' '}
+              <span className="text-white drop-shadow-lg">100 Receitas de Pavê</span> que Vendem Sozinhas!
             </h1>
             <p className="max-w-[600px] md:text-xl mx-auto lg:mx-0 text-primary-foreground/90">
               Com apenas um liquidificador e ingredientes simples, você vai preparar pavês cremosos e irresistíveis, sem
