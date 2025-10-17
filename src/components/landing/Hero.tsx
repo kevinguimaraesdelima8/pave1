@@ -5,7 +5,7 @@ export default function Hero() {
     <section className="w-full py-12 md:py-24 lg:py-32 bg-primary text-primary-foreground">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-6 text-center">
-          <div className="inline-flex items-center rounded-full bg-yellow-400 px-4 py-2 text-sm font-semibold text-gray-900 shadow-md">
+          <div className="inline-flex animate-pulse items-center rounded-full bg-yellow-400 px-4 py-2 text-sm font-semibold text-gray-900 shadow-md">
             <Zap className="mr-2 h-4 w-4" />
             OFERTA RELÂMPAGO - ÚLTIMAS VAGAS
           </div>
