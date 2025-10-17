@@ -2,24 +2,32 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 
 const faqs = [
   {
-    question: 'Preciso de experiência na cozinha?',
+    question: 'Como acesso o conteúdo?',
     answer:
-      'Absolutamente não! As receitas foram desenvolvidas para serem fáceis e rápidas, perfeitas para iniciantes. Com nosso passo a passo, você fará pavês incríveis desde a primeira tentativa.',
+      'Assim que você colocar seus dados e finalizar sua compra, vamos te enviar um e-mail com todas as receitas. Por isso é importante inserir o e-mail correto na hora de finalizar a compra.',
   },
   {
-    question: 'Quais equipamentos eu preciso?',
-    answer:
-      'Você vai precisar de itens básicos que a maioria das pessoas já tem em casa: um liquidificador, uma batedeira (opcional, mas ajuda), tigelas e uma geladeira. Nada de equipamentos caros ou complicados.',
+    question: 'Posso imprimir as receitas?',
+    answer: 'Sim, também disponibilizamos um PDF com todas as receitas para imprimir.',
   },
   {
-    question: 'Como vou receber o e-book?',
+    question: 'É indicado para quem não sabe cozinhar?',
     answer:
-      'O acesso é imediato! Assim que seu pagamento for confirmado, você receberá o e-book completo em PDF diretamente no seu e-mail e também um link para acesso via WhatsApp.',
+      'Com certeza. Você terá acesso ao passo a passo completo desde a escolha dos ingredientes até o modo de preparo.',
   },
   {
-    question: 'E se eu não gostar das receitas?',
+    question: 'Quanto vou gastar preparando as Receitas?',
     answer:
-      'Seu risco é zero! Você tem uma garantia incondicional de 7 dias. Se não ficar satisfeita, é só pedir o reembolso e devolvemos todo o seu dinheiro, sem complicações.',
+      'As receitas são feitas sempre prezando por ingredientes de fácil acesso e baixo custo. Você economizará muito deixando de comprar produtos industrializados caros.',
+  },
+  {
+    question: 'Terei suporte com minhas dúvidas?',
+    answer:
+      'Temos uma equipe de suporte considerada uma das melhores do Brasil. Você não ficará sozinha em nenhum momento. Surgiu dúvida? Vamos te ajudar!',
+  },
+  {
+    question: 'É necessário ter ingredientes especiais para as receitas?',
+    answer: 'Não! As receitas utilizam ingredientes comuns encontrados facilmente em supermercados.',
   },
 ];
 
@@ -32,11 +40,15 @@ export default function FAQ() {
           <p className="mt-4 text-muted-foreground md:text-xl">Ainda tem dúvidas? A gente responde.</p>
         </div>
         <div className="mx-auto max-w-3xl mt-8">
-          <Accordion type="single" collapsible className="w-full">
+          <Accordion type="single" collapsible className="w-full space-y-4">
             {faqs.map((faq, index) => (
-              <AccordionItem key={index} value={`item-${index}`}>
-                <AccordionTrigger className="text-lg font-semibold text-left">{faq.question}</AccordionTrigger>
-                <AccordionContent className="text-base text-muted-foreground">{faq.answer}</AccordionContent>
+              <AccordionItem key={index} value={`item-${index}`} className="border-b-0 rounded-lg bg-background shadow-sm">
+                <AccordionTrigger className="text-lg font-semibold text-left px-6 py-4 hover:no-underline">
+                  {faq.question}
+                </AccordionTrigger>
+                <AccordionContent className="text-base text-muted-foreground px-6">
+                  <p className="pb-4">{faq.answer}</p>
+                </AccordionContent>
               </AccordionItem>
             ))}
           </Accordion>
