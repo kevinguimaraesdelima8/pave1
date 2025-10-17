@@ -1,6 +1,4 @@
 import { CheckCircle2 } from 'lucide-react';
-import Image from 'next/image';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const benefits = [
   '100 receitas de PAVÊ',
@@ -17,8 +15,6 @@ const benefits = [
   'BÔNUS 2: Planilha de Precificação',
 ];
 
-const ebookImage = PlaceHolderImages.find((p) => p.id === 'ebook-mockup');
-
 export default function Benefits() {
   return (
     <section className="w-full py-12 md:py-24 lg:py-32 bg-secondary">
@@ -30,19 +26,7 @@ export default function Benefits() {
             </h2>
           </div>
         </div>
-        <div className="mx-auto grid max-w-6xl items-center gap-8 md:grid-cols-2 lg:gap-16 mt-12">
-          {ebookImage && (
-            <div className="flex justify-center">
-              <Image
-                src={ebookImage.imageUrl}
-                alt={ebookImage.description}
-                width={500}
-                height={500}
-                className="rounded-lg shadow-xl"
-                data-ai-hint={ebookImage.imageHint}
-              />
-            </div>
-          )}
+        <div className="mx-auto grid max-w-2xl items-center gap-8 mt-12">
           <div className="grid gap-4">
             {benefits.map((benefit, index) => (
               <div key={index} className="flex items-start gap-4 text-left">
