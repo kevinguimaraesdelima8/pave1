@@ -1,4 +1,5 @@
-import { Zap, Users, Star } from 'lucide-react';
+import { Zap, ChefHat } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 
 export default function Hero() {
   return (
@@ -36,20 +37,19 @@ export default function Hero() {
             <br />
             Sozinhas!
           </h1>
-          <p className="max-w-[600px] md:text-lg text-primary-foreground/90">
-            Com apenas um liquidificador e ingredientes simples, você vai preparar pavês cremosos e irresistíveis, sem
-            precisar de experiência na cozinha.{' '}
-            <span className="font-bold text-yellow-300">Ganhe dinheiro sem sair de casa!</span>
-          </p>
-          <div className="flex flex-wrap items-center justify-center gap-4">
-            <div className="flex items-center gap-2 rounded-md bg-white/20 px-4 py-2">
-              <Users className="h-5 w-5 text-white" />
-              <span className="font-semibold text-white">+2.500 alunas</span>
-            </div>
-            <div className="flex items-center gap-2 rounded-md bg-white/20 px-4 py-2">
-              <Star className="h-5 w-5 text-yellow-300 fill-yellow-300" />
-              <span className="font-semibold text-white">4.9/5 estrelas</span>
-            </div>
+          <div className="w-full max-w-md mx-auto space-y-2 pt-4">
+            <a href="#offer" className="block">
+              <Button
+                size="lg"
+                className="w-full bg-green-500 hover:bg-green-600 text-white font-bold text-xl py-6 shadow-lg transform hover:scale-105 transition-transform duration-300 whitespace-normal h-auto"
+              >
+                <ChefHat className="mr-2 h-6 w-6" />
+                QUERO AS RECEITAS AGORA
+              </Button>
+            </a>
+            <p className="text-xs text-primary-foreground/80">
+              Acesso imediato e 100% seguro.
+            </p>
           </div>
         </div>
       </div>
