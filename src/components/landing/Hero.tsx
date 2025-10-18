@@ -3,9 +3,9 @@ import { Button } from '@/components/ui/button';
 
 export default function Hero() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 bg-primary text-primary-foreground">
+    <section className="w-full py-12 md:py-24 lg:py-32 bg-primary text-primary-foreground text-center">
       <div className="container px-4 md:px-6">
-        <div className="flex flex-col items-center justify-center space-y-6 text-center">
+        <div className="flex flex-col items-center justify-center space-y-6">
           <div className="inline-flex animate-pulse items-center rounded-full bg-yellow-400 px-4 py-2 text-sm font-semibold text-gray-900 shadow-md">
             <Zap className="mr-2 h-4 w-4" />
             OFERTA RELÂMPAGO - ÚLTIMAS VAGAS
@@ -37,7 +37,7 @@ export default function Hero() {
             <br />
             Sozinhas!
           </h1>
-          <div className="w-full max-w-md mx-auto space-y-2 pt-4">
+          <div className="w-full max-w-md mx-auto space-y-4 pt-4">
             <a href="#offer" className="block">
               <Button
                 size="lg"
@@ -47,6 +47,10 @@ export default function Hero() {
                 QUERO AS RECEITAS AGORA
               </Button>
             </a>
+            <p className="max-w-xl mx-auto text-lg md:text-xl text-primary-foreground/90">
+              Com apenas um liquidificador e ingredientes simples, você vai preparar pavês cremosos e irresistíveis, sem
+              precisar de experiência na cozinha. Ganhe dinheiro sem sair de casa!
+            </p>
             <p className="text-xs text-primary-foreground/80">
               Acesso imediato e 100% seguro.
             </p>
