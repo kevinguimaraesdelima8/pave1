@@ -1,4 +1,4 @@
-import { Zap, ChefHat } from 'lucide-react';
+import { Zap, ChefHat, Users, Star } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export default function Hero() {
@@ -49,8 +49,19 @@ export default function Hero() {
             </a>
             <p className="max-w-xl mx-auto text-lg md:text-xl text-primary-foreground/90">
               Com apenas um liquidificador e ingredientes simples, você vai preparar pavês cremosos e irresistíveis, sem
-              precisar de experiência na cozinha. Ganhe dinheiro sem sair de casa!
+              precisar de experiência na cozinha.{' '}
+              <span className="text-yellow-300 font-bold">Ganhe dinheiro sem sair de casa!</span>
             </p>
+            <div className="flex flex-wrap items-center justify-center gap-4 pt-2">
+              <div className="flex items-center gap-2 rounded-md bg-white/10 px-4 py-2 text-sm font-medium text-white shadow-sm">
+                <Users className="h-5 w-5" />
+                <span>+2.500 alunas</span>
+              </div>
+              <div className="flex items-center gap-2 rounded-md bg-white/10 px-4 py-2 text-sm font-medium text-white shadow-sm">
+                <Star className="h-5 w-5 fill-yellow-400 text-yellow-400" />
+                <span>4.9/5 estrelas</span>
+              </div>
+            </div>
             <p className="text-xs text-primary-foreground/80">
               Acesso imediato e 100% seguro.
             </p>
