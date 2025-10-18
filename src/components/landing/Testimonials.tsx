@@ -42,7 +42,7 @@ export default function Testimonials() {
               Elas Confiaram e Transformaram Suas Vidas
             </h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Veja o que nossas alunas estão dizendo sobre o e-book Pavê Lucrativo.
+              Veja o que nossas alunas estão dizendo sobre o Pavê Lucrativo.
             </p>
           </div>
         </div>
