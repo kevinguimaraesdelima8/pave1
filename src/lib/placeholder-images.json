@@ -33,13 +33,13 @@
     {
       "id": "avatar-4",
       "description": "Portrait of a woman.",
-      "imageUrl": "https://picsum.photos/seed/avatar4/100/100",
+      "imageUrl": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MDczMDk0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "woman portrait"
     },
     {
       "id": "avatar-5",
       "description": "Headshot of a smiling woman.",
-      "imageUrl": "https://picsum.photos/seed/avatar5/100/100",
+      "imageUrl": "https://images.unsplash.com/photo-1598625873873-52f9aefd7d9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b21hbiUyMHNtaWxpbmd8ZW58MHx8fHwxNzYwNzMwODcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "woman smiling"
     },
     {
@@ -65,6 +65,36 @@
       "description": "Pavê in a jar.",
       "imageUrl": "https://i.imgur.com/4NPCbOV.jpeg",
       "imageHint": "pave jar"
+    },
+    {
+      "id": "testimonial-image-1",
+      "description": "Testimonial screenshot 1",
+      "imageUrl": "https://i.imgur.com/xPt1t1I.png",
+      "imageHint": "testimonial screenshot"
+    },
+    {
+      "id": "testimonial-image-2",
+      "description": "Testimonial screenshot 2",
+      "imageUrl": "https://i.imgur.com/EvHUB3Y.png",
+      "imageHint": "testimonial screenshot"
+    },
+    {
+      "id": "testimonial-image-3",
+      "description": "Testimonial screenshot 3",
+      "imageUrl": "https://i.imgur.com/6uBZDN1.png",
+      "imageHint": "testimonial screenshot"
+    },
+    {
+      "id": "testimonial-image-4",
+      "description": "Testimonial screenshot 4",
+      "imageUrl": "https://i.imgur.com/TNwxHAC.png",
+      "imageHint": "testimonial screenshot"
+    },
+    {
+      "id": "testimonial-image-5",
+      "description": "Testimonial screenshot 5",
+      "imageUrl": "https://i.imgur.com/8mzu6xH.png",
+      "imageHint": "testimonial screenshot"
     }
   ]
 }
