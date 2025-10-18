@@ -9,7 +9,7 @@ export default function Offer() {
           <h2 className="text-4xl md:text-5xl font-bold font-headline">Oferta Especial Por Tempo Limitado!</h2>
           <div className="bg-black/20 rounded-lg p-6 md:p-8 space-y-4">
             <p className="text-lg">De <span className="line-through">R$97,00</span> por apenas:</p>
-            <div className="text-6xl md:text-7xl lg:text-8xl font-extrabold text-yellow-400">R$19,90</div>
+            <div className="text-6xl md:text-7xl lg:text-8xl font-extrabold text-yellow-400">R$29,90</div>
             <div className="flex items-center justify-center gap-2 font-semibold">
               <Flame className="h-5 w-5 text-yellow-400" />
               <span>Mais de 80% de desconto - Apenas HOJE!</span>
