@@ -29,11 +29,19 @@ const nextConfig: NextConfig = {
         pathname: '/**',
       },
       {
-        protocol: 'https',
+        protocol: 'https
+',
         hostname: 'i.imgur.com',
         port: '',
         pathname: '/**',
       }
+    ],
+  },
+  devIndicators: {
+    allowedDevOrigins: [
+      '*.google.com',
+      '*.cloud.dev',
+      '*.cloudworkstations.dev',
     ],
   },
 };
