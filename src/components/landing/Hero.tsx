@@ -10,14 +10,12 @@ export default function Hero() {
             <Zap className="mr-2 h-4 w-4" />
             OFERTA RELÂMPAGO - ÚLTIMAS VAGAS
           </div>
-          <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl/none text-white">
-            Transforme Sua Cozinha em
-            <br />
-            Uma{' '}
+          <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl text-white">
+            <span className="block">Transforme Sua Cozinha em Uma</span>
             <span className="relative inline-block">
               <span className="relative z-10 text-yellow-400">Fonte de Renda:</span>
               <svg
-                className="absolute left-0 -bottom-2 w-full h-2 text-yellow-400"
+                className="absolute left-0 -bottom-1 sm:-bottom-2 w-full h-2 text-yellow-400"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 100 10"
                 preserveAspectRatio="none"
@@ -32,10 +30,8 @@ export default function Hero() {
               </svg>
             </span>{' '}
             100
-            <br />
-            Receitas de Pavê que Vendem
-            <br />
-            Sozinhas!
+            <span className="block">Receitas de Pavê que Vendem</span>
+            <span className="block">Sozinhas!</span>
           </h1>
           <div className="w-full max-w-md mx-auto space-y-4 pt-4">
             <a href="https://go.paradisepagbr.com/hbd3tbgqb7" className="block">
