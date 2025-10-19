@@ -23,7 +23,7 @@ export default function Offer() {
             <a href="https://go.paradisepagbr.com/hbd3tbgqb7" className="block">
               <Button
                 size="lg"
-                className="w-full bg-green-500 hover:bg-green-600 text-white font-bold text-xl py-6 shadow-lg transform hover:scale-105 transition-transform duration-300 whitespace-normal h-auto"
+                className="w-full bg-green-500 hover:bg-green-600 text-white font-bold text-xl py-6 shadow-lg transform transition-transform duration-300 whitespace-normal h-auto animate-jump"
               >
                 <ChefHat className="mr-2 h-6 w-6" />
                 QUERO AS RECEITAS AGORA
