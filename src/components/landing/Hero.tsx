@@ -38,7 +38,7 @@ export default function Hero() {
             Sozinhas!
           </h1>
           <div className="w-full max-w-md mx-auto space-y-4 pt-4">
-            <a href="#offer" className="block">
+            <a href="https://go.paradisepagbr.com/hbd3tbgqb7" className="block">
               <Button
                 size="lg"
                 className="w-full bg-green-500 hover:bg-green-600 text-white font-bold text-xl py-6 shadow-lg transform hover:scale-105 transition-transform duration-300 whitespace-normal h-auto"
