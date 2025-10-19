@@ -58,6 +58,10 @@ export default function Hero() {
             </span>
           </h1>
           <div className="w-full max-w-md mx-auto space-y-4 pt-4">
+            <p className="max-w-xl mx-auto text-lg md:text-xl text-primary-foreground/90">
+              Com apenas um liquidificador e ingredientes simples, você vai preparar pavês cremosos e irresistíveis, sem
+              precisar de experiência na cozinha. <span className="text-yellow-300 font-bold">Ganhe dinheiro sem sair de casa!</span>
+            </p>
             <a href="https://go.paradisepagbr.com/hbd3tbgqb7" className="block">
               <Button
                 size="lg"
@@ -67,10 +71,6 @@ export default function Hero() {
                 QUERO AS RECEITAS AGORA
               </Button>
             </a>
-            <p className="max-w-xl mx-auto text-lg md:text-xl text-primary-foreground/90">
-              Com apenas um liquidificador e ingredientes simples, você vai preparar pavês cremosos e irresistíveis, sem
-              precisar de experiência na cozinha. <span className="text-yellow-300 font-bold">Ganhe dinheiro sem sair de casa!</span>
-            </p>
             <div className="flex flex-wrap items-center justify-center gap-4 pt-2">
               <div className="flex items-center gap-2 rounded-md bg-white/10 px-4 py-2 text-sm font-medium text-white shadow-sm">
                 <Users className="h-5 w-5" />
