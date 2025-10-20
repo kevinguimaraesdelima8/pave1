@@ -24,7 +24,7 @@ const bonuses = [
   {
     id: 'bonus-3',
     title: 'Bônus 3 - Receitas de Panetone irresistíveis',
-    description: 'Combinações perfeitas de sabores e caldas para deixar seus pavês ainda mais irresistíveis.',
+    description: 'Combinação perfeita para você vender muito nesse fim de ano',
     price: 'R$ 47,00',
     bgColor: 'bg-purple-500',
     textColor: 'text-white',
