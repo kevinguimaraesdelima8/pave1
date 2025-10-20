@@ -15,7 +15,7 @@ const bonuses = [
   {
     id: 'bonus-2',
     title: 'Bônus 2 - 100 Receitas de Pudins sem fogo',
-    description: 'Descubra o que comprar, onde pagar mais barato e como montar refeições completas sem desperdício.',
+    description: 'Descubra como fazer pudins sem ir ao fogo de forma rápida e deliciosa',
     price: 'R$ 47,00',
     bgColor: 'bg-cyan-400',
     textColor: 'text-white',
