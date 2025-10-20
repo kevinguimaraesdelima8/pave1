@@ -5,8 +5,8 @@ import { Badge } from '@/components/ui/badge';
 const bonuses = [
   {
     id: 'bonus-1',
-    title: 'Bônus 1 – +50 opções de sobremesa que combinam com pavê.',
-    description: 'São mais de 50 opções de sobremesas simples e deliciosas para servir junto com seu pavê.',
+    title: 'Bônus 1 - 150 Recheios preguiçosos que duram 60 dias na geladeira',
+    description: 'São mais de 150 recheios que não vão ao fogo e duram até 60 dias na geladeira.',
     price: 'R$ 47,00',
     bgColor: 'bg-pink-500',
     textColor: 'text-white',
