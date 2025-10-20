@@ -6,7 +6,7 @@ const bonuses = [
   {
     id: 'bonus-1',
     title: 'Bônus 1 - 150 Recheios preguiçosos que duram 60 dias na geladeira',
-    description: 'São mais de 150 recheios que não vão ao fogo e duram até 60 dias na geladeira.',
+    description: 'São mais de 150 Recheios sem fogo para usar no seu pavê ou para fazer mais doces.',
     price: 'R$ 47,00',
     bgColor: 'bg-pink-500',
     textColor: 'text-white',
@@ -14,7 +14,7 @@ const bonuses = [
   },
   {
     id: 'bonus-2',
-    title: 'Bônus 2 – Lista de Compras Inteligente + Econômica',
+    title: 'Bônus 2 - 100 Receitas de Pudins sem fogo',
     description: 'Descubra o que comprar, onde pagar mais barato e como montar refeições completas sem desperdício.',
     price: 'R$ 47,00',
     bgColor: 'bg-cyan-400',
