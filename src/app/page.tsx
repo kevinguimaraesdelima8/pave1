@@ -8,6 +8,7 @@ import SocialProof from '@/components/landing/SocialProof';
 import Testimonials from '@/components/landing/Testimonials';
 import ProductCarousel from '@/components/landing/ProductCarousel';
 import TestimonialScreenshots from '@/components/landing/TestimonialScreenshots';
+import Bonus from '@/components/landing/Bonus';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <ProductCarousel />
         <Testimonials />
         <TestimonialScreenshots />
+        <Bonus />
         <SocialProof />
         <Offer />
         <Guarantee />
