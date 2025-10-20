@@ -7,6 +7,8 @@ import {
   CarouselPrevious,
 } from '@/components/ui/carousel';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { Button } from '@/components/ui/button';
+import { ChefHat } from 'lucide-react';
 
 const productImages = PlaceHolderImages.filter((p) => p.id.startsWith('product-'));
 
@@ -14,6 +16,17 @@ export default function ProductCarousel() {
   return (
     <section className="w-full py-12 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6">
+        <div className="w-full max-w-md mx-auto space-y-4 mb-12">
+            <a href="https://go.paradisepagbr.com/hbd3tbgqb7" className="block">
+              <Button
+                size="lg"
+                className="w-full bg-green-500 hover:bg-green-600 text-white font-bold text-xl py-6 shadow-lg transform transition-transform duration-300 whitespace-normal h-auto animate-jump"
+              >
+                <ChefHat className="mr-2 h-6 w-6" />
+                QUERO AS RECEITAS AGORA
+              </Button>
+            </a>
+          </div>
         <Carousel
           opts={{
             align: 'start',
