@@ -21,15 +21,6 @@ export default function Offer() {
             <p className="font-semibold text-sm sm:text-base">ATENÇÃO: Esta oferta pode sair do ar a qualquer momento!</p>
           </div>
           <div className="w-full max-w-md mx-auto space-y-4">
-            <div className="relative mx-auto w-full max-w-[300px]">
-              <Image
-                src="https://i.imgur.com/GRucoq4.png"
-                alt="Garantia de 7 dias"
-                width={300}
-                height={58}
-                className="mx-auto"
-              />
-            </div>
             <a href="https://go.paradisepagbr.com/hbd3tbgqb7" className="block">
               <Button
                 size="lg"
