@@ -8,8 +8,8 @@ const bonuses = [
     title: 'Bônus 1 - 150 Recheios preguiçosos que duram 60 dias na geladeira',
     description: 'São mais de 150 Recheios sem fogo para usar no seu pavê ou para fazer mais doces.',
     price: 'R$ 47,00',
-    bgColor: 'bg-pink-500',
-    textColor: 'text-white',
+    bgColor: 'bg-primary',
+    textColor: 'text-primary-foreground',
     image: PlaceHolderImages.find(p => p.id === 'bonus-pudim-ebook'),
   },
   {
@@ -17,8 +17,8 @@ const bonuses = [
     title: 'Bônus 2 - 100 Receitas de Pudins sem fogo',
     description: 'Descubra como fazer pudins sem ir ao fogo de forma rápida e deliciosa',
     price: 'R$ 47,00',
-    bgColor: 'bg-cyan-400',
-    textColor: 'text-white',
+    bgColor: 'bg-accent',
+    textColor: 'text-accent-foreground',
     image: PlaceHolderImages.find(p => p.id === 'bonus-shopping-list-ebook'),
   },
   {
@@ -26,8 +26,8 @@ const bonuses = [
     title: 'Bônus 3 - Receitas de Panetone irresistíveis',
     description: 'Combinação perfeita para você vender muito nesse fim de ano',
     price: 'R$ 47,00',
-    bgColor: 'bg-purple-500',
-    textColor: 'text-white',
+    bgColor: 'bg-primary',
+    textColor: 'text-primary-foreground',
     image: PlaceHolderImages.find(p => p.id === 'bonus-flavors-ebook'),
   },
 ];
