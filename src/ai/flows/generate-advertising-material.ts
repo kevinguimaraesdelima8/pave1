@@ -56,32 +56,32 @@ const generateAdvertisingMaterialPrompt = ai.definePrompt({
 
   Structure:
 
-  Headline: "Transform your kitchen into a source of income: more than 200 Pavê recipes that sell themselves – for just R$19.90!"
+  Headline: "Transforme sua cozinha em uma fonte de renda: mais de 200 receitas de Pavê que se vendem sozinhas – por apenas R$19,90!"
 
-  Subheadline: "With just a blender and simple ingredients, you will prepare creamy and irresistible pavês, without needing experience in the kitchen. Make money without leaving home!"
+  Subheadline: "Com apenas um liquidificador e ingredientes simples, você vai preparar pavês cremosos e irresistíveis, sem precisar de experiência na cozinha. Ganhe dinheiro sem sair de casa!"
 
   Section of benefits in short bullets:
 
-  ✅ 100 PAVÉ recipes
-  ✅ How to price and sell
-  ✅ Certificate
-  ✅ How to leave the cream smooth and firm at the right point.
-  ✅ How to wet the biscuits without soaking.
-  ✅ How to assemble and decorate to impress.
-  ✅ Tips to sell MUCH, even without leaving home!
-  ✅ Beautiful and delicious pavé, without excess sugar.
-  ✅ Quick, practical and easy to repeat techniques.
-  ✅ Fillings that don't go to the fire
+  ✅ 100 receitas de PAVÊ
+  ✅ Como precificar e vender
+  ✅ Certificado
+  ✅ Como deixar o creme liso e firme no ponto certo.
+  ✅ Como molhar os biscoitos sem encharcar.
+  ✅ Como montar e decorar para impressionar.
+  ✅ Dicas pra vender MUITO, mesmo sem sair de casa!
+  ✅ Pavê bonito e delicioso, sem excesso de açúcar.
+  ✅ Técnicas rápidas, práticas e fáceis de repetir.
+  ✅ Recheios que não vão ao fogo
 
-  Social proof: "More than 2,500 women have already started making money at home with these recipes. Now it's your turn!"
+  Social proof: "Mais de 2.500 mulheres já começaram a faturar em casa com essas receitas. Agora é a sua vez!"
 
-  Offer with scarcity and urgency: "🔥 From R$97 for just R$19.90. ⚠️ Limited time offer – guarantee now before it leaves the air!"
+  Offer with scarcity and urgency: "🔥 De R$97 por apenas R$19,90. ⚠️ Oferta por tempo limitado – garanta agora antes que saia do ar!"
 
-  Call to action: "👉 Click on the button below and immediately receive the complete eBook directly on your WhatsApp!"
+  Call to action: "👉 Clique no botão abaixo e receba imediatamente o eBook completo direto no seu WhatsApp!"
 
-  Button: "I WANT TO START SELLING NOW" (eye-catching green color).
+  Button: "EU QUERO COMEÇAR A VENDER AGORA" (cor verde chamativa).
 
-  Guarantee: "📘 Receive today, lifetime access, zero risk!"
+  Guarantee: "📘 Receba hoje, acesso vitalício, risco zero!"
 
   Colors: Primary color: A warm reddish-orange (#D46A4E) to convey warmth and the homemade quality of the pavês; Background color: Very light orange background (#F8EFE9), almost white, providing a soft contrast; Accent color: A complementary yellow-orange (#E99D42) to highlight calls to action and important information.
   Font: 'Alegreya', a serif with an elegant, intellectual, contemporary feel.
@@ -101,3 +101,5 @@ const generateAdvertisingMaterialFlow = ai.defineFlow(
     return output!;
   }
 );
+
+    
