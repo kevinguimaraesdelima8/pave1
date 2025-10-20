@@ -95,6 +95,24 @@
       "description": "Testimonial screenshot 5",
       "imageUrl": "https://i.imgur.com/8mzu6xH.png",
       "imageHint": "testimonial screenshot"
+    },
+    {
+      "id": "bonus-pudim-ebook",
+      "description": "Ebook cover for desserts that go with pudding.",
+      "imageUrl": "https://i.imgur.com/qLwtkG8.png",
+      "imageHint": "ebook cover"
+    },
+    {
+      "id": "bonus-shopping-list-ebook",
+      "description": "Ebook cover for smart and economical shopping list.",
+      "imageUrl": "https://i.imgur.com/RRL2f3y.png",
+      "imageHint": "ebook cover"
+    },
+    {
+      "id": "bonus-flavors-ebook",
+      "description": "Ebook cover for table of flavors and irresistible syrups.",
+      "imageUrl": "https://i.imgur.com/dK0M2Qc.png",
+      "imageHint": "ebook cover"
     }
   ]
 }
