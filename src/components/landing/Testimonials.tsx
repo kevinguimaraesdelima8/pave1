@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { Star } from 'lucide-react';
+import { Star, ChefHat } from 'lucide-react';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import {
   Carousel,
@@ -8,6 +8,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from '@/components/ui/carousel';
+import { Button } from '@/components/ui/button';
 
 const testimonials = [
   {
@@ -37,6 +38,17 @@ export default function Testimonials() {
     <section className="w-full py-12 md:py-24 lg:py-32 bg-secondary/50">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
+          <div className="w-full max-w-md mx-auto space-y-4 mb-8">
+             <a href="https://go.paradisepagbr.com/hbd3tbgqb7" className="block">
+               <Button
+                size="lg"
+                className="w-full bg-green-500 hover:bg-green-600 text-white font-bold text-xl py-6 shadow-lg transform transition-transform duration-300 whitespace-normal h-auto animate-jump"
+              >
+                <ChefHat className="mr-2 h-6 w-6" />
+                QUERO AS RECEITAS AGORA
+              </Button>
+            </a>
+          </div>
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl font-headline">
               Elas Confiaram e Transformaram Suas Vidas
