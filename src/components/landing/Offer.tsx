@@ -11,10 +11,6 @@ export default function Offer() {
           <div className="bg-black/20 rounded-lg p-6 md:p-8 space-y-4">
             <p className="text-lg">De <span className="line-through">R$97,00</span> por apenas:</p>
             <div className="text-6xl md:text-7xl lg:text-8xl font-extrabold text-yellow-400">R$29,90</div>
-            <div className="flex items-center justify-center gap-2 font-semibold">
-              <Flame className="h-5 w-5 text-yellow-400" />
-              <span>Mais de 80% de desconto - Apenas HOJE!</span>
-            </div>
           </div>
           <div className="flex items-center justify-center gap-2 text-center bg-yellow-500 text-yellow-900 p-3 rounded-lg shadow-md">
             <AlertTriangle className="h-5 w-5 flex-shrink-0" />
