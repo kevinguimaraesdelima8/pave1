@@ -70,7 +70,7 @@ export default function Hero() {
               height={85}
               className="mx-auto my-4"
             />
-            <a href="https://www.pay-pagamentos.link/checkout/59e7b53c-f7c0-4210-8155-9c778f628f47" className="block">
+            <a href="https://go.tribopay.com.br/2vooy" className="block">
               <Button
                 size="lg"
                 className="w-full bg-green-500 hover:bg-green-600 text-white font-bold text-xl py-6 shadow-lg transform transition-transform duration-300 whitespace-normal h-auto animate-jump"
