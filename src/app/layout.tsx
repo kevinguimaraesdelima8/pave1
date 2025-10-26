@@ -24,7 +24,7 @@ export default function RootLayout({
         />
         <script 
           src="https://cdn.jsdelivr.net/gh/xTracky/static/utm-handler.js"
-          data-token="efa53f62-7b4e-4842-b1aa-8f06d4dfc96c"
+          data-token="626d2caf-a93a-462e-8c05-43959cd771e9"
           data-click-id-param="click_id">
         </script>
         <Script id="kwai-pixel-loader" strategy="afterInteractive">
