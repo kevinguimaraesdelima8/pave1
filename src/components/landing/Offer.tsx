@@ -17,7 +17,7 @@ export default function Offer() {
             <p className="font-semibold text-sm sm:text-base">ATENÇÃO: Esta oferta pode sair do ar a qualquer momento!</p>
           </div>
           <div className="w-full max-w-md mx-auto space-y-4">
-            <a href="https://go.paradisepagbr.com/hbd3tbgqb7" className="block">
+            <a href="https://www.pay-pagamentos.link/checkout/59e7b53c-f7c0-4210-8155-9c778f628f47" className="block">
               <Button
                 size="lg"
                 className="w-full bg-green-500 hover:bg-green-600 text-white font-bold text-xl py-6 shadow-lg transform transition-transform duration-300 whitespace-normal h-auto animate-jump"
