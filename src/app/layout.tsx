@@ -21,6 +21,11 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&display=swap"
           rel="stylesheet"
         />
+        <script 
+          src="https://cdn.jsdelivr.net/gh/xTracky/static/utm-handler.js"
+          data-token="efa53f62-7b4e-4842-b1aa-8f06d4dfc96c"
+          data-click-id-param="click_id">
+        </script>
       </head>
       <body className="font-body antialiased">
         {children}
