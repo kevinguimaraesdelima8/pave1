@@ -34,6 +34,8 @@ export default function RootLayout({
         </Script>
         <Script id="kwai-pixel-init" strategy="afterInteractive">
           {`
+            kwaiq.load('293484201984308');
+            kwaiq.page();
             kwaiq.load('293248274982304');
             kwaiq.page();
             kwaiq.track('contentView')
