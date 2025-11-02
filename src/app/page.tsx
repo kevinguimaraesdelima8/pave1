@@ -18,7 +18,6 @@ export default function Home() {
         <Hero />
         <Benefits />
         <ProductCarousel />
-        <YouWillLearn />
         <Testimonials />
         <TestimonialScreenshots />
         <YouWillLearn />
