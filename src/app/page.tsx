@@ -9,6 +9,7 @@ import Testimonials from '@/components/landing/Testimonials';
 import ProductCarousel from '@/components/landing/ProductCarousel';
 import TestimonialScreenshots from '@/components/landing/TestimonialScreenshots';
 import Bonus from '@/components/landing/Bonus';
+import YouWillLearn from '@/components/landing/YouWillLearn';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Hero />
         <Benefits />
         <ProductCarousel />
+        <YouWillLearn />
         <Testimonials />
         <TestimonialScreenshots />
         <Bonus />

@@ -119,6 +119,18 @@
       "description": "Ebook cover for table of flavors and irresistible syrups.",
       "imageUrl": "https://i.imgur.com/axpxg9B.png",
       "imageHint": "ebook cover"
+    },
+    {
+      "id": "gluten-free-breads",
+      "description": "Assortment of gluten-free breads.",
+      "imageUrl": "https://images.unsplash.com/photo-1578880253412-a1b7d509d435?w=600&h=400&fit=crop",
+      "imageHint": "gluten-free bread"
+    },
+    {
+      "id": "cakes-and-desserts",
+      "description": "A delicious chocolate cake.",
+      "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&h=800&fit=crop",
+      "imageHint": "chocolate cake"
     }
   ]
 }
