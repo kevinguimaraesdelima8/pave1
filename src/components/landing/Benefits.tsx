@@ -17,8 +17,6 @@ const benefits = [
 ];
 
 export default function Benefits() {
-  const passionFruitPave = PlaceHolderImages.find(p => p.id === 'passion-fruit-pave');
-
   return (
     <section className="w-full py-12 md:py-24 lg:py-32 bg-background">
       <div className="container px-4 md:px-6">
@@ -33,23 +31,7 @@ export default function Benefits() {
           </div>
         </div>
 
-        {passionFruitPave && (
-          <div className="my-12 mx-auto max-w-2xl text-center">
-            <div className="relative aspect-[16/9] overflow-hidden rounded-xl shadow-lg">
-              <Image
-                src={passionFruitPave.imageUrl}
-                alt={passionFruitPave.description}
-                layout="fill"
-                objectFit="cover"
-                className="transition-transform duration-300 hover:scale-105"
-                data-ai-hint={passionFruitPave.imageHint}
-              />
-            </div>
-            <p className="mt-4 text-center font-semibold text-lg text-foreground">{passionFruitPave.description}</p>
-          </div>
-        )}
-
-        <div className="mx-auto grid max-w-5xl items-stretch gap-6 sm:grid-cols-2">
+        <div className="mx-auto grid max-w-5xl items-stretch gap-6 sm:grid-cols-2 pt-12">
           {benefits.map((benefit, index) => (
             <div
               key={index}
