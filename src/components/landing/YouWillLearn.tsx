@@ -14,6 +14,12 @@ const learnItems = [
     subtitle: 'Receitas deliciosas e fáceis de fazer',
     image: PlaceHolderImages.find((p) => p.id === 'cakes-and-desserts'),
   },
+  {
+    id: 'cakes-and-desserts-2',
+    title: 'BOLOS E SOBREMESAS',
+    subtitle: 'Receitas deliciosas e fáceis de fazer',
+    image: PlaceHolderImages.find((p) => p.id === 'cakes-and-desserts'),
+  },
 ];
 
 export default function YouWillLearn() {
