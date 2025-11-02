@@ -14,6 +14,18 @@ const learnItems = [
     subtitle: 'Uma receita campeã de vendas',
     image: PlaceHolderImages.find((p) => p.id === 'passion-fruit-pave'),
   },
+  {
+    id: 'pave-tradicional',
+    title: 'PAVÊ TRADICIONAL',
+    subtitle: 'O clássico que nunca sai de moda',
+    image: PlaceHolderImages.find((p) => p.id === 'pave-tradicional'),
+  },
+  {
+    id: 'pave-chocolate',
+    title: 'PAVÊ DE CHOCOLATE',
+    subtitle: 'Cremoso, intenso e irresistível',
+    image: PlaceHolderImages.find((p) => p.id === 'pave-chocolate'),
+  },
 ];
 
 export default function YouWillLearn() {

@@ -133,10 +133,16 @@
       "imageHint": "guarantee seal"
     },
     {
-      "id": "cakes-and-desserts",
-      "description": "A delicious chocolate cake.",
-      "imageUrl": "https://i.imgur.com/0MY08gG.jpeg",
-      "imageHint": "chocolate cake"
+      "id": "pave-tradicional",
+      "description": "A traditional pavê dessert.",
+      "imageUrl": "https://images.unsplash.com/photo-1650805085055-1ae8c535a8f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0cmFkaXRpb25hbCUyMHBhdmV8ZW58MHx8fHwxNzYyMDUwMTIwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "traditional pave"
+    },
+    {
+      "id": "pave-chocolate",
+      "description": "A delicious chocolate pavê dessert.",
+      "imageUrl": "https://images.unsplash.com/photo-1661353049584-d1c099353afb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjaG9jb2xhdGUlMjBwYXZlfGVufDB8fHx8MTc2MjA1MDEyMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chocolate pave"
     }
   ]
 }
