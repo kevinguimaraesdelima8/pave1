@@ -49,9 +49,8 @@ export default function Bonus() {
                             <Image
                                 src={bonus.image.imageUrl}
                                 alt={bonus.image.description}
-                                layout="fill"
-                                objectFit="cover"
-                                className="rounded-lg"
+                                fill
+                                className="object-cover rounded-lg"
                                 data-ai-hint={bonus.image.imageHint}
                             />
                         </div>
