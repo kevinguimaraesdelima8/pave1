@@ -26,6 +26,12 @@ const learnItems = [
     subtitle: 'Cremoso, intenso e irresistível',
     image: PlaceHolderImages.find((p) => p.id === 'pave-chocolate'),
   },
+  {
+    id: 'strawberry-pave',
+    title: 'MINI PAVÊ DE MORANGO',
+    subtitle: 'Perfeito para venda individual',
+    image: PlaceHolderImages.find((p) => p.id === 'strawberry-pave'),
+  },
 ];
 
 export default function YouWillLearn() {
