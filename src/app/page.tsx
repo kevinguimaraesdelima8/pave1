@@ -21,6 +21,7 @@ export default function Home() {
         <YouWillLearn />
         <Testimonials />
         <TestimonialScreenshots />
+        <YouWillLearn />
         <Bonus />
         <SocialProof />
         <Offer />
