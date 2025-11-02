@@ -73,6 +73,20 @@ export default function TestimonialScreenshots() {
             ))}
           </CarouselContent>
         </Carousel>
+        <div className="w-full max-w-md mx-auto space-y-4 mt-12">
+            <div className="flex items-center justify-center">
+              <Image src="https://i.imgur.com/xPoq3Uz.jpeg" alt="Selo de garantia" width={250} height={53} className="my-4" data-ai-hint="guarantee seal" />
+            </div>
+            <a href="https://go.tribopay.com.br/2vooy" className="block">
+              <Button
+                size="lg"
+                className="w-full bg-green-500 hover:bg-green-600 text-white font-bold text-xl py-6 shadow-lg transform transition-transform duration-300 whitespace-normal h-auto animate-jump"
+              >
+                <ChefHat className="mr-2 h-6 w-6" />
+                QUERO AS RECEITAS AGORA
+              </Button>
+            </a>
+          </div>
       </div>
     </section>
   );
