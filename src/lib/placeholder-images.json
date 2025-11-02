@@ -73,6 +73,12 @@
       "imageHint": "pave jar"
     },
     {
+      "id": "product-5",
+      "description": "Guarantee seal.",
+      "imageUrl": "https://i.imgur.com/tjZKHf0.jpeg",
+      "imageHint": "guarantee seal"
+    },
+    {
       "id": "testimonial-image-1",
       "description": "Testimonial screenshot 1",
       "imageUrl": "https://i.imgur.com/xPt1t1I.png",
