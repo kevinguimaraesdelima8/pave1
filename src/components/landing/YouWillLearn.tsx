@@ -3,10 +3,10 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const learnItems = [
   {
-    id: 'gluten-free-breads',
-    title: 'PÃES ZERO GLÚTEN',
-    subtitle: 'Sem glúten e zero lactose',
-    image: PlaceHolderImages.find((p) => p.id === 'gluten-free-breads'),
+    id: 'red-fruits-pave',
+    title: 'PAVÊ DE FRUTAS VERMELHAS',
+    subtitle: 'Uma opção refrescante e sofisticada',
+    image: PlaceHolderImages.find((p) => p.id === 'red-fruits-pave'),
   },
   {
     id: 'passion-fruit-pave',
