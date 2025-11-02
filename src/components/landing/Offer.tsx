@@ -18,7 +18,7 @@ export default function Offer() {
           </div>
           <div className="w-full max-w-md mx-auto space-y-4">
             <Image 
-              src="https://imgur.com/0MY08gG.png" 
+              src="https://i.imgur.com/0MY08gG.png" 
               alt="Garantia de 7 dias"
               width={300}
               height={85}

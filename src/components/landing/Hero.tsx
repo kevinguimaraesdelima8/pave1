@@ -64,7 +64,7 @@ export default function Hero() {
               precisar de experiência na cozinha. <span className="text-yellow-300 font-bold">Ganhe dinheiro sem sair de casa!</span>
             </p>
             <Image 
-              src="https://imgur.com/0MY08gG.png" 
+              src="https://i.imgur.com/0MY08gG.png" 
               alt="Garantia de 7 dias"
               width={300}
               height={85}
