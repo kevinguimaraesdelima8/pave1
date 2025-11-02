@@ -17,10 +17,10 @@ export default function Home() {
       <main className="flex-1">
         <Hero />
         <Benefits />
+        <YouWillLearn />
         <ProductCarousel />
         <Testimonials />
         <TestimonialScreenshots />
-        <YouWillLearn />
         <Bonus />
         <SocialProof />
         <Offer />
