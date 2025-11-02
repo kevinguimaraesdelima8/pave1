@@ -43,6 +43,12 @@
       "imageHint": "woman smiling"
     },
     {
+      "id": "passion-fruit-pave",
+      "description": "Pavê de maracujá",
+      "imageUrl": "https://i.imgur.com/2s4Pz7C.png",
+      "imageHint": "passion fruit pave"
+    },
+    {
       "id": "product-1",
       "description": "Delicious pavê in a cup.",
       "imageUrl": "https://i.imgur.com/LklzYRW.jpeg",
