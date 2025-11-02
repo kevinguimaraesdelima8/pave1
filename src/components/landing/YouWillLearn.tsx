@@ -31,7 +31,7 @@ export default function YouWillLearn() {
             VOCÊ VAI APRENDER A FAZER:
           </h2>
         </div>
-        <div className="mx-auto grid max-w-2xl items-stretch gap-8">
+        <div className="mx-auto max-w-2xl space-y-8">
           {learnItems.map((item) => (
             <div
               key={item.id}
