@@ -17,15 +17,6 @@ export default function Offer() {
             <p className="font-semibold text-sm sm:text-base">ATENÇÃO: Esta oferta pode sair do ar a qualquer momento!</p>
           </div>
           <div className="w-full max-w-md mx-auto space-y-4">
-            <div className="my-4">
-              <Image
-                src="https://i.imgur.com/xPoq3Uz.jpeg"
-                alt="Selo de Garantia"
-                width={400}
-                height={100}
-                className="mx-auto"
-              />
-            </div>
             <a href="https://go.tribopay.com.br/2vooy" className="block">
               <Button
                 size="lg"

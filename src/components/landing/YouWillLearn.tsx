@@ -1,5 +1,7 @@
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { Button } from '../ui/button';
+import { ChefHat } from 'lucide-react';
 
 const learnItems = [
   {
@@ -67,6 +69,17 @@ export default function YouWillLearn() {
             </div>
           ))}
         </div>
+        <div className="w-full max-w-md mx-auto space-y-4 mt-12">
+            <a href="https://go.tribopay.com.br/2vooy" className="block">
+              <Button
+                size="lg"
+                className="w-full bg-green-500 hover:bg-green-600 text-white font-bold text-xl py-6 shadow-lg transform transition-transform duration-300 whitespace-normal h-auto animate-jump"
+              >
+                <ChefHat className="mr-2 h-6 w-6" />
+                QUERO AS RECEITAS AGORA
+              </Button>
+            </a>
+          </div>
       </div>
     </section>
   );
