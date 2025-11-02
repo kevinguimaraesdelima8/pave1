@@ -63,8 +63,14 @@ export default function Hero() {
               Com apenas um liquidificador e ingredientes simples, você vai preparar pavês cremosos e irresistíveis, sem
               precisar de experiência na cozinha. <span className="text-yellow-300 font-bold">Ganhe dinheiro sem sair de casa!</span>
             </p>
-            <div className="flex items-center justify-center">
-              
+            <div className="my-4">
+              <Image
+                src="https://i.imgur.com/xPoq3Uz.jpeg"
+                alt="Selo de Garantia"
+                width={400}
+                height={100}
+                className="mx-auto"
+              />
             </div>
             <a href="https://go.tribopay.com.br/2vooy" className="block">
               <Button
