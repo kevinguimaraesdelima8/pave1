@@ -32,6 +32,9 @@ export default function TestimonialScreenshots() {
                 QUERO AS RECEITAS AGORA
               </Button>
             </a>
+            <div className="flex items-center justify-center">
+              <Image src="https://i.imgur.com/xPoq3Uz.jpeg" alt="Selo de garantia" width={250} height={53} className="my-4" data-ai-hint="guarantee seal" />
+            </div>
           </div>
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
