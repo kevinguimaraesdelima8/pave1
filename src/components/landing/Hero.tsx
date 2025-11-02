@@ -64,7 +64,7 @@ export default function Hero() {
               precisar de experiência na cozinha. <span className="text-yellow-300 font-bold">Ganhe dinheiro sem sair de casa!</span>
             </p>
             <div className="flex items-center justify-center">
-              <Image src="https://i.imgur.com/xPoq3Uz.jpeg" alt="Selo de garantia" width={250} height={53} className="my-4" data-ai-hint="guarantee seal" />
+              
             </div>
             <a href="https://go.tribopay.com.br/2vooy" className="block">
               <Button
