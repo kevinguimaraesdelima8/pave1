@@ -62,15 +62,6 @@ export default function TestimonialScreenshots() {
           </CarouselContent>
         </Carousel>
         <div className="w-full max-w-md mx-auto space-y-4 mt-12">
-            <div className="my-4">
-              <Image
-                src="https://i.imgur.com/xPoq3Uz.jpeg"
-                alt="Selo de Garantia"
-                width={400}
-                height={100}
-                className="mx-auto"
-              />
-            </div>
             <a href="https://go.tribopay.com.br/2vooy" className="block">
               <Button
                 size="lg"
