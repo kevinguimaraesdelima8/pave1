@@ -9,16 +9,10 @@ const learnItems = [
     image: PlaceHolderImages.find((p) => p.id === 'gluten-free-breads'),
   },
   {
-    id: 'cakes-and-desserts',
-    title: 'BOLOS E SOBREMESAS',
-    subtitle: 'Receitas deliciosas e fáceis de fazer',
-    image: PlaceHolderImages.find((p) => p.id === 'cakes-and-desserts'),
-  },
-  {
-    id: 'cakes-and-desserts-2',
-    title: 'BOLOS E SOBREMESAS',
-    subtitle: 'Receitas deliciosas e fáceis de fazer',
-    image: PlaceHolderImages.find((p) => p.id === 'cakes-and-desserts'),
+    id: 'passion-fruit-pave',
+    title: 'PAVÊ DE MARACUJÁ',
+    subtitle: 'Uma receita campeã de vendas',
+    image: PlaceHolderImages.find((p) => p.id === 'passion-fruit-pave'),
   },
 ];
 
