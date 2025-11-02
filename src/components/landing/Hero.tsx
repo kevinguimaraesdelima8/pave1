@@ -63,6 +63,9 @@ export default function Hero() {
               Com apenas um liquidificador e ingredientes simples, você vai preparar pavês cremosos e irresistíveis, sem
               precisar de experiência na cozinha. <span className="text-yellow-300 font-bold">Ganhe dinheiro sem sair de casa!</span>
             </p>
+            <div className="flex items-center justify-center">
+              <Image src="https://i.imgur.com/xPoq3Uz.jpeg" alt="Selo de garantia" width={250} height={53} className="my-4" data-ai-hint="guarantee seal" />
+            </div>
             <a href="https://go.tribopay.com.br/2vooy" className="block">
               <Button
                 size="lg"
@@ -72,9 +75,6 @@ export default function Hero() {
                 QUERO AS RECEITAS AGORA
               </Button>
             </a>
-            <div className="flex items-center justify-center">
-              <Image src="https://i.imgur.com/xPoq3Uz.jpeg" alt="Selo de garantia" width={250} height={53} className="my-4" data-ai-hint="guarantee seal" />
-            </div>
             <div className="flex flex-wrap items-center justify-center gap-4 pt-2">
               <div className="flex items-center gap-2 rounded-md bg-white/10 px-4 py-2 text-sm font-medium text-white shadow-sm">
                 <Users className="h-5 w-5" />

@@ -17,6 +17,9 @@ export default function ProductCarousel() {
     <section className="w-full py-12 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6">
         <div className="w-full max-w-md mx-auto space-y-4 mb-12">
+            <div className="flex items-center justify-center">
+              <Image src="https://i.imgur.com/xPoq3Uz.jpeg" alt="Selo de garantia" width={250} height={53} className="my-4" data-ai-hint="guarantee seal" />
+            </div>
             <a href="https://go.tribopay.com.br/2vooy" className="block">
               <Button
                 size="lg"
@@ -26,9 +29,6 @@ export default function ProductCarousel() {
                 QUERO AS RECEITAS AGORA
               </Button>
             </a>
-            <div className="flex items-center justify-center">
-              <Image src="https://i.imgur.com/xPoq3Uz.jpeg" alt="Selo de garantia" width={250} height={53} className="my-4" data-ai-hint="guarantee seal" />
-            </div>
           </div>
         <Carousel
           opts={{
